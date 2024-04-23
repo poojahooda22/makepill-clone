@@ -31,6 +31,7 @@ function Loader() {
     }, '-=1')
     tl.to('.videoContainer', {
         opacity: 0,
+        duration: .8,
         delay: .4,
     }, '-=1')
     tl.from('.page1', {
