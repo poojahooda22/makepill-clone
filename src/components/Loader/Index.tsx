@@ -26,7 +26,7 @@ function Loader() {
         tl.to('.part1 h4, h5', {
             y: -100,
             duration: 1,
-    }, '-=1')
+        }, '-=1')
     // display none for the loader
     tl.to('.videoContainer', {
         opacity: 0,
