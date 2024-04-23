@@ -87,8 +87,7 @@ function Loader() {
                    <h5>00</h5>
                     <h4>%</h4>
                 </div>
-            </div>
-   
+            </div>  
         </div>
     </div>
   )
