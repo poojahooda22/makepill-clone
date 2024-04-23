@@ -35,7 +35,7 @@ function Loader() {
         }, '-=1')
         tl.from('.page1', {
             y: 100,
-        opacity: 0,
+            opacity: 0,
         ease: Power4.easeOut,
     })
     tl.to('.loader', {
