@@ -32,7 +32,7 @@ function Loader() {
             opacity: 0,
             duration: .2,
             delay: .4,
-    }, '-=1')
+        }, '-=1')
     tl.from('.page1', {
         y: 100,
         opacity: 0,
