@@ -23,7 +23,7 @@ function Loader() {
             duration: .9,
             delay: 6,
         }, '-=1')
-    tl.to('.part1 h4, h5', {
+        tl.to('.part1 h4, h5', {
         y: -100,
         duration: 1,
     }, '-=1')
