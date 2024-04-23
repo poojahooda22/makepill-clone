@@ -18,8 +18,16 @@ function Header() {
                 /Index
             </div>
             <div className='w-[5vw] bg-red-400 flex items-center justify-center'>
-                <div className='w-[2vw] h-[2vw] border-b-[1px] border-t-[1px] border-l-[1px] border-r-[1px] rounded-l-full'><span className='text-[.9vw]'>M</span></div>
-                <div className='w-[2vw] h-[2vw] border-b-[1px] border-t-[1px] border-r-[1px] rounded-r-full'><span><HiOutlineMenuAlt4 /></span></div>
+                <div className='w-[2vw] h-[2vw] border-b-[1px] border-t-[1px] border-l-[1px] 
+                    border-r-[1px] rounded-l-full'
+                >
+                    <span className='text-[.9vw]'>M</span>
+                </div>
+                <div className='w-[2vw] h-[2vw] border-b-[1px] border-t-[1px] 
+                    border-r-[1px] rounded-r-full'
+                >
+                    <span><HiOutlineMenuAlt4 /></span>
+                </div>
             </div>
         </div> 
     </div>
