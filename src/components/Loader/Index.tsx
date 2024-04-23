@@ -20,7 +20,7 @@ function Loader() {
         tl.to('.head4 h4', {
             y: -100,
             stagger: 0.2,
-        duration: .9,
+            duration: .9,
         delay: 6,
     }, '-=1')
     tl.to('.part1 h4, h5', {
