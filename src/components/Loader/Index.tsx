@@ -16,7 +16,7 @@ function Loader() {
             opacity: 0,
             stagger: 0.5,
             duration: .9,
-    })
+        })
     tl.to('.head4 h4', {
         y: -100,
         stagger: 0.2,
