@@ -5,7 +5,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 import { gsap, Power4 } from "gsap";
 
-
 gsap.registerPlugin(ScrollTrigger);
 
 function Loader() {
@@ -62,7 +61,7 @@ function Loader() {
 
   return (
     <div data-scroll-section >
-        <div className='loader w-full  bg-primary-loader relative'>
+        <div className='loader w-full bg-primary-loader relative'>
             {/* video on the loader screen */}
             <div className='video-wrapper flex items-center justify-center '>
                 <div className='videoContainer w-full h-[100vh] sm:h-[50vw] '>
