@@ -40,7 +40,7 @@ function Loader() {
         })
         tl.to('.loader', {
             display: 'none'
-    })
+        })
    })
 
    // timer for the loader
