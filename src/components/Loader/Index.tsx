@@ -13,7 +13,7 @@ function Loader() {
         const tl = gsap.timeline();
         tl.from('.head4 h4', {
             y: 150,
-        opacity: 0,
+            opacity: 0,
         stagger: 0.5,
         duration: .9,
     })
