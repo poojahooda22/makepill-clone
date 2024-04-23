@@ -28,7 +28,7 @@ function Loader() {
             duration: 1,
         }, '-=1')
     // display none for the loader
-    tl.to('.videoContainer', {
+        tl.to('.videoContainer', {
         opacity: 0,
         duration: .2,
         delay: .4,
