@@ -38,7 +38,7 @@ function Loader() {
             opacity: 0,
             ease: Power4.easeOut,
         })
-    tl.to('.loader', {
+        tl.to('.loader', {
         display: 'none'
     })
    })
