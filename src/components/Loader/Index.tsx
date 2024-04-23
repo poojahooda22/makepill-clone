@@ -30,7 +30,7 @@ function Loader() {
     // display none for the loader
         tl.to('.videoContainer', {
             opacity: 0,
-        duration: .2,
+            duration: .2,
         delay: .4,
     }, '-=1')
     tl.from('.page1', {
