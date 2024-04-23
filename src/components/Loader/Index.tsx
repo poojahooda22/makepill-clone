@@ -77,7 +77,7 @@ function Loader() {
             </div>
             {/* loader text */}
             <div className='w-full absolute bottom-[8vw] 
-            sm:bottom-[5vw] flex items-center 
+                sm:bottom-[5vw] flex items-center 
                 justify-between px-[5vw] sm:px-[2.5vw]'
             >
                 <div className='head4 text-[3vw] sm:text-[1vw] overflow-hidden'>
