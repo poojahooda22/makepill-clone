@@ -34,7 +34,7 @@ function Loader() {
             delay: .4,
         }, '-=1')
         tl.from('.page1', {
-        y: 100,
+            y: 100,
         opacity: 0,
         ease: Power4.easeOut,
     })
