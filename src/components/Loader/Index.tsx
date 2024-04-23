@@ -29,9 +29,10 @@ function Loader() {
         y: -100,
         duration: 1,
     }, '-=1')
+    // display none for the loader
     tl.to('.videoContainer', {
         opacity: 0,
-        duration: .8,
+        duration: .2,
         delay: .4,
     }, '-=1')
     tl.from('.page1', {
