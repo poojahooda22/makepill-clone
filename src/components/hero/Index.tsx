@@ -3,7 +3,7 @@ import Header from '../header/Index'
 
 function LandingPage() {
   return (
-    <div className='first w-full h-[100vh] overflow-hidden'>
+    <div data-scroll-section className='first w-full h-[100vh] overflow-hidden'>
         <div className='page1'>
             <div>
                 <Header/>
