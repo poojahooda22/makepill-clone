@@ -15,7 +15,7 @@ function Loader() {
             y: 150,
             opacity: 0,
             stagger: 0.5,
-        duration: .9,
+            duration: .9,
     })
     tl.to('.head4 h4', {
         y: -100,
