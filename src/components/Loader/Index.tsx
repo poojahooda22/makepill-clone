@@ -39,7 +39,7 @@ function Loader() {
             ease: Power4.easeOut,
         })
         tl.to('.loader', {
-        display: 'none'
+            display: 'none'
     })
    })
 
