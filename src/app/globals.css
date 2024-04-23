@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: 'mainFont';
+    src: url(../../public/font/NeueHaasDisplay-Roman.ttf);
+}
+
+main {
+    font-family: 'mainFont';
+}
+
 
 /* Path: src/app/App.css 
     main bg - #0f0f10
