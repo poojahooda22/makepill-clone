@@ -43,6 +43,7 @@ function Loader() {
     })
    })
 
+   // timer for the loader
     useEffect(() => {
         const h5timer = document.querySelector('.part1 h5');
         
