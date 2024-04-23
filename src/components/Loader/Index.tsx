@@ -36,7 +36,7 @@ function Loader() {
         tl.from('.page1', {
             y: 100,
             opacity: 0,
-        ease: Power4.easeOut,
+            ease: Power4.easeOut,
     })
     tl.to('.loader', {
         display: 'none'
