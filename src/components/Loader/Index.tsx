@@ -31,7 +31,7 @@ function Loader() {
         tl.to('.videoContainer', {
             opacity: 0,
             duration: .2,
-        delay: .4,
+            delay: .4,
     }, '-=1')
     tl.from('.page1', {
         y: 100,
