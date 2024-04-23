@@ -22,7 +22,7 @@ function Loader() {
             stagger: 0.2,
             duration: .9,
             delay: 6,
-    }, '-=1')
+        }, '-=1')
     tl.to('.part1 h4, h5', {
         y: -100,
         duration: 1,
