@@ -31,7 +31,7 @@ function Loader() {
     }, '-=1')
     tl.to('.videoContainer', {
         opacity: 0,
-        delay: .3,
+        delay: .4,
     }, '-=1')
     tl.from('.page1', {
         y: 100,
@@ -60,8 +60,8 @@ function Loader() {
     }, []);
 
   return (
-    <div>
-        <div className='loader w-full  bg-[#0f0f0f] relative'>
+    <div data-scroll-section >
+        <div className='loader w-full  bg-primary-loader relative'>
             {/* video on the loader screen */}
             <div className='video-wrapper flex items-center justify-center '>
                 <div className='videoContainer w-full h-[100vh] sm:h-[50vw] '>
