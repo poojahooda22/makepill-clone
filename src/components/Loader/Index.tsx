@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 function Loader() {
 
    useGSAP(() => {
-    const tl = gsap.timeline();
+        const tl = gsap.timeline();
     tl.from('.head4 h4', {
         y: 150,
         opacity: 0,
