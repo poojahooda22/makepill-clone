@@ -11,7 +11,7 @@ function Loader() {
 
    useGSAP(() => {
         const tl = gsap.timeline();
-    tl.from('.head4 h4', {
+        tl.from('.head4 h4', {
         y: 150,
         opacity: 0,
         stagger: 0.5,
