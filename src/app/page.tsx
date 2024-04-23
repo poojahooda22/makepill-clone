@@ -32,7 +32,7 @@ export default function Home() {
     <div className="bg-[#0f0f10] text-white">
       {/* Your content here */}
        <Loader/>
-       {/* <LandingPage/> */}
+       <LandingPage/>
     </div>
   </main>
 </LocomotiveScrollProvider>
