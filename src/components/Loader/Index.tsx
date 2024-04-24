@@ -20,8 +20,8 @@ function Loader() {
         tl.to('.head4 h4', {
             y: -100,
             stagger: 0.2,
-            duration: .9,
-            delay: 6,
+            duration: 1,
+            delay: 6.1,
         }, '-=1')
         tl.to('.part1 h4, h5', {
             y: -100,
@@ -30,16 +30,16 @@ function Loader() {
     // display none for the loader
         tl.to('.videoContainer', {
             opacity: 0,
-            duration: .2,
-            delay: .4,
-        }, '-=1')
-        tl.from('.page1', {
-            y: 100,
-            opacity: 0,
-            ease: Power4.easeOut,
+            duration: .9,    
         })
+        
         tl.to('.loader', {
             display: 'none'
+        })
+        tl.from('.header', {
+            y: -100,
+            opacity: 0,
+            ease: Power4.easeOut,
         })
    })
 
