@@ -3,9 +3,9 @@ import Header from '../header/Index'
 
 function LandingPage() {
   return (
-    <div data-scroll-section className='first w-full h-[100vh] overflow-hidden'>
+    <div data-scroll-section className='first w-full h-[100vh]'>
         <div className='page1 relative'>
-            <div className=''>
+            <div className='cursor-pointer'>
                 <Header/>
             </div>
             {/* Hero section video */}
