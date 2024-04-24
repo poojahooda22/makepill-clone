@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 function Header() {
     
   return (
-    <div className='absolute w-full sm:px-[2.5vw] sm:pt-[2vw] cursor-pointer'>
+    <div className='header absolute w-full sm:px-[2.5vw] sm:pt-[2vw] cursor-pointer'>
         <div className='w-full flex items-center justify-between'>
             <div>
                 <Link href="/"> 
