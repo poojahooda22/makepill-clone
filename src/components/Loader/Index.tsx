@@ -30,9 +30,12 @@ function Loader() {
     // display none for the loader
         tl.to('.videoContainer', {
             opacity: 0,
-            duration: .9,    
+            duration: 1,    
         })
-        
+        tl.from('.page1', {
+            opacity: 0,
+            ease: Power4.easeOut,
+        })
         tl.to('.loader', {
             display: 'none'
         })
@@ -70,7 +73,6 @@ function Loader() {
                         className='w-full h-full object-cover'
                         src="https://res.cloudinary.com/mkpill/video/upload/v1691860071/mp_intro_pill_v2_3f977a1a22.mp4"
                         autoPlay
-                        loop
                         muted
                     >
                     </video>   
