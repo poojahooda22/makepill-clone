@@ -16,7 +16,7 @@ export default function Home() {
   options={
     {
       smooth: true,
-      // ... all available Locomotive Scroll 
+      // ... all available Locomotive  
     }
   }
   watch={
