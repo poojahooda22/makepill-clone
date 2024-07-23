@@ -21,7 +21,7 @@ export default function Home() {
   }
   watch={
     [
-      //  For exemple, on Next.js you would want to watch properties like `router.asPath` (you may want to add more criterias if the instance should be update on locations with query parameters)
+      //  For exemple, on Next.js you would want to watch properties like `router.asPath` (you may want to add more criterias if the instance  be update on locations with query parameters)
     ]
   }
   containerRef={containerRef}
