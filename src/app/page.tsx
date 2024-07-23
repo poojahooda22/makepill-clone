@@ -22,7 +22,7 @@ export default function Home() {
   watch={
     [
       //.
-      //  Basicaly, you would want to watch 
+      //  Basicaly, you would want to 
       //  For exemple, on Next.js you would want to watch properties like `router.asPath` (you may want to add more criterias if the instance should be update on locations with query parameters)
     ]
   }
