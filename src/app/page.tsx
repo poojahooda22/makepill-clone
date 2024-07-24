@@ -28,7 +28,7 @@ export default function Home() {
 >
   <main data-scroll-container ref={containerRef}>
     <div className=" text-white bg-primary-main ">
-      {/* Your content here */}
+      {/* Your content */}
        <Loader/>
        <LandingPage/>
     </div>
