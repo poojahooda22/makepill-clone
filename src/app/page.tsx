@@ -21,7 +21,7 @@ export default function Home() {
   }
   watch={
     [
-      //  For exemple, on Next.` want to add more criterias if the instance  be update on locations with query 
+      //  For exemple, on Next.` want to add more criterias if the instance  be update on locations with 
     ]
   }
   containerRef={containerRef}
