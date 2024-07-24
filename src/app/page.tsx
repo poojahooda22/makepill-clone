@@ -21,7 +21,7 @@ export default function Home() {
   }
   watch={
     [
-      //  For exemple, on Next.` want to add more criterias if the 
+      //  For exemple, on Next.` want to add more criterias 
     ]
   }
   containerRef={containerRef}
