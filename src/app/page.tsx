@@ -21,14 +21,14 @@ export default function Home() {
   }
   watch={
     [
-      //  For exemple, on Next.` want to 
+      //  For exemple, on.`
     ]
   }
   containerRef={containerRef}
 >
   <main data-scroll-container ref={containerRef}>
     <div className=" text-white bg-primary-main ">
-      {/* Your content here */}
+      {/* Your content */}
        <Loader/>
        <LandingPage/>
     </div>
