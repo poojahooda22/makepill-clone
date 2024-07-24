@@ -21,7 +21,7 @@ export default function Home() {
   }
   watch={
     [
-      //  For exemple, on Next.` want to add more criterias if the instance  be update
+      //  For exemple, on Next.` want to add more criterias if the instance be
     ]
   }
   containerRef={containerRef}
