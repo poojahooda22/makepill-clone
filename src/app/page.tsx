@@ -21,7 +21,7 @@ export default function Home() {
   }
   watch={
     [
-      //  For exemple, on Next.` wa
+      //  For exemple, on Next.`
     ]
   }
   containerRef={containerRef}
