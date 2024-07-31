@@ -35,7 +35,8 @@ function Header() {
                 </div>
                 <div
                     onMouseDown={() => {setIsActive(!isActive)}}
-                    className={`pill w-[8vw] h-[7vw] sm:w-[2.2vw] sm:h-[2vw] border-b-[1px] border-t-[1px] 
+                    className={`pill w-[8vw] h-[7vw] sm:w-[2.2vw] sm:h-[2vw] border-b-[1px] 
+                        border-t-[1px] 
                     border-r-[1px] rounded-r-full flex items-center justify-center 
                     sm:px-[1.1vw] hover:bg-[#f5f5f5] hover:text-[#000]`}
                 >
