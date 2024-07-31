@@ -12,7 +12,8 @@ import { useState } from 'react';
 function Header() {
     const [isActive, setIsActive] = useState(false);
   return (
-    <div className='header absolute w-full px-[5vw] py-[4vw] sm:px-[2.5vw] 
+    <div 
+        className='header absolute w-full px-[5vw] py-[4vw] sm:px-[2.5vw] 
     sm:pt-[2vw]'>
         <div className='w-full flex items-center justify-between'>
             <div>
