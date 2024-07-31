@@ -4,7 +4,8 @@ const Cursor = () => {
   return (
     <div>
       <div>
-        <h1>Cursor</h1></div>
+        <h1>Cursor</h1>
+        </div>
     </div>
   )
 }
