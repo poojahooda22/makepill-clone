@@ -8,7 +8,7 @@ function LandingPage() {
             <div className='cursor-pointer'>
                 <Header/>
             </div>
-            {/* Hero section vid */}
+            {/* Hero section  */}
             <div className='heroVideo'>
                 <video 
                     className='w-full h-[100vh] object-cover'
