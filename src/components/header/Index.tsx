@@ -41,7 +41,8 @@ function Header() {
                     border-r-[1px] rounded-l-full flex 
                     items-center justify-center sm:px-[1.1vw] '
                 >
-                    <span className='text-[3vw] sm:text-[.8vw]'>M</span>
+                    <span className='text-[3vw] sm:text-[.8vw]'>
+                        M</span>
                 </div>
                 <div
                     onMouseDown={() => {setIsActive(!isActive)}}
