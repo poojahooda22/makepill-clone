@@ -50,8 +50,7 @@ function Header() {
                     border-r-[1px] rounded-r-full flex 
                     sm:px-[1.1vw] hover:bg-[#f5f5f5] hover:text-[#000]`}
                 >
-                    <motion.span variants={opacity} animate={isActive ? 'closed' : 'open'}
-                    >
+                    <motion.span variants={opacity} animate={isActive ? 'closed' : 'open'}>
                         <HiOutlineMenuAlt4 className='text-[3.8vw] sm:text-[1.2vw]' />
                     </motion.span>
                     <motion.span className='absolute' variants={opacity} animate={!isActive ? 'closed' : 'open'}>
