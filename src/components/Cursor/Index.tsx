@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Index = () => {
+const Cursor = () => {
   return (
     <div>
-      
+      <div></div>
     </div>
   )
 }
 
-export default Index
+export default Cursor
