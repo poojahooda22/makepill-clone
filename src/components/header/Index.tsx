@@ -42,7 +42,8 @@ function Header() {
                     items-center justify-center sm:px-[1.1vw] '
                 >
                     <span className='text-[3vw] sm:text-[.8vw]'>
-                        M</span>
+                        M
+                        </span>
                 </div>
                 <div
                     onMouseDown={() => {setIsActive(!isActive)}}
