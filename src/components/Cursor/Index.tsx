@@ -5,7 +5,8 @@ const Cursor = () => {
     <div>
         <div>
             <h1>Cursor</h1>
-            </div>
+            <p>Loremp.......</p>
+        </div>
     </div>
   )
 }
