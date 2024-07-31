@@ -54,7 +54,7 @@ function Header() {
                     >
                         <HiOutlineMenuAlt4 className='text-[3.8vw] sm:text-[1.2vw]' />
                     </motion.span>
-                    <motion.span className='absolute' variants={opacity} animate={!isActive ? 'closed' : 'open'} >
+                    <motion.span className='absolute' variants={opacity} animate={!isActive ? 'closed' : 'open'}>
                         <IoCloseOutline className='text-[3.8vw] sm:text-[1.2vw] opacity-0 ' />
                     </motion.span>
                 </div>
