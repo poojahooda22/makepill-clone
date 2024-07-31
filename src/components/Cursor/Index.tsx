@@ -6,7 +6,7 @@ const Cursor = () => {
         <div>
             <h1>Cursor</h1>
             <p>Loremp.......</p>
-            <button></button>
+            <button>Signup</button>
         </div>
     </div>
   )
