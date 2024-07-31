@@ -13,8 +13,10 @@ function Header() {
     const [isActive, setIsActive] = useState(false);
   return (
     <div 
-        className='header absolute w-full px-[5vw] py-[4vw] sm:px-[2.5vw] 
-        sm:pt-[2vw]'>
+        className='header absolute w-full px-[5vw] 
+        py-[4vw] sm:px-[2.5vw] 
+        sm:pt-[2vw]'
+    >
         <div className='w-full flex items-center justify-between'>
             <div>
                 <Link href="/"> 
