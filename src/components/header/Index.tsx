@@ -43,7 +43,7 @@ function Header() {
                 >
                     <span className='text-[3vw] sm:text-[.8vw]'>
                         M
-                        </span>
+                    </span>
                 </div>
                 <div
                     onMouseDown={() => {setIsActive(!isActive)}}
