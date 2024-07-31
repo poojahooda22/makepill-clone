@@ -12,20 +12,26 @@ import { useState } from 'react';
 function Header() {
     const [isActive, setIsActive] = useState(false);
   return (
-    <div className='header absolute w-full px-[5vw] py-[4vw] sm:px-[2.5vw] 
-    sm:pt-[2vw]'>
+    <div 
+        className='header absolute w-full px-[5vw] 
+        py-[4vw] sm:px-[2.5vw] 
+        sm:pt-[2vw]'
+    >
         <div className='w-full flex items-center justify-between'>
             <div>
                 <Link href="/"> 
                     <h2 
                         className='text-[4.5vw] sm:text-[1.3vw] 
                         font-semibold tracking-wider leading-[2vw]'
-                    >makepill</h2>
+                    >
+                        makepill
+                    </h2>
                 </Link>
             </div>
             <motion.div 
                 variants={opacity} animate={isActive ? 'closed' : 'open'}
-                className='hidden sm:inline-block uppercase text-[.8vw] text-left'
+                className='hidden sm:inline-block uppercase 
+                text-[.8vw] text-left'
             >
                 / Index
             </motion.div>
