@@ -22,7 +22,7 @@ function Header() {
                         font-semibold tracking-wider leading-[2vw]'
                     >
                         makepill
-                        </h2>
+                    </h2>
                 </Link>
             </div>
             <motion.div 
