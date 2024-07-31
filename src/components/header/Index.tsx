@@ -20,7 +20,8 @@ function Header() {
                     <h2 
                         className='text-[4.5vw] sm:text-[1.3vw] 
                         font-semibold tracking-wider leading-[2vw]'
-                    >makepill</h2>
+                    >
+                        makepill</h2>
                 </Link>
             </div>
             <motion.div 
