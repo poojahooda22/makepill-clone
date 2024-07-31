@@ -21,7 +21,7 @@ function Header() {
                 </Link>
             </div>
             <motion.div 
-                 variants={opacity} animate={isActive ? 'closed' : 'open'}
+                variants={opacity} animate={isActive ? 'closed' : 'open'}
                 className='hidden sm:inline-block uppercase text-[.8vw] text-left'
             >
                 / Index
