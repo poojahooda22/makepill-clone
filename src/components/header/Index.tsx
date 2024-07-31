@@ -35,7 +35,7 @@ function Header() {
             >
                 / Index
             </motion.div>
-            <div className=' sm:w-[5vw] flex items-center justify-center'>
+            <div className='sm:w-[5vw] flex items-center justify-center'>
                 <div className='w-[8vw] h-[7vw] sm:w-[2.2vw] 
                     sm:h-[2vw] border-b-[1px] border-t-[1px] border-l-[1px] 
                     border-r-[1px] rounded-l-full flex 
